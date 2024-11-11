@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTs Mutiara Nikmah Alhamid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MTs Mutiara Nikmah Alhamid</h1>
+        <p>Menjadi Generasi Berprestasi dan Berakhlak Mulia</p>
+    </header>
+
+    <section id="profil">
+        <h2>Profil Sekolah</h2>
+        <p>MTs Mutiara Nikmah Alhamid adalah sekolah menengah pertama yang berdedikasi untuk mendidik siswa menjadi generasi berprestasi dan berakhlak mulia. Dengan fasilitas modern dan kurikulum yang komprehensif, kami siap mengembangkan potensi siswa.</p>
+        <p>Alamat: Jl. Pendidikan No. 123, Kota Edukasi</p>
+        <p>Telepon: (021) 123-4567</p>
+        <p>Email: info@mutiaranikmah.sch.id</p>
+    </section>
+
+    <section id="pendaftaran">
+        <h2>Formulir Pendaftaran Siswa Baru</h2>
+        <form id="formPendaftaran">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="alamat">Alamat:</label>
+            <input type="text" id="alamat" name="alamat" required>
+
+            <label for="nohp">Nomor HP:</label>
+            <input type="text" id="nohp" name="nohp" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="jeniskelamin">Jenis Kelamin:</label>
+            <select id="jeniskelamin" name="jeniskelamin" required>
+                <option value="Laki-laki">Laki-laki</option>
+                <option value="Perempuan">Perempuan</option>
+            </select>
+
+            <button type="submit">Daftar</button>
+        </form>
+        <p id="message"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

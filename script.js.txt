@@ -1,0 +1,10 @@
+document.getElementById("formPendaftaran").addEventListener("submit", function(event) {
+    event.preventDefault(); // Mencegah form refresh halaman
+
+    // Menampilkan pesan konfirmasi
+    const nama = document.getElementById("nama").value;
+    document.getElementById("message").textContent = `Terima kasih, ${nama}! Pendaftaran Anda telah berhasil.`;
+
+    // Mengosongkan form setelah submit
+    document.getElementById("formPendaftaran").reset();
+});
